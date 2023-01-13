@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: busca-cep-simples
+  description: Modelo de exemplo
+  tags:
+    - go
+    - webservice
+spec:
+  type: service
+  lifecycle: production
+  owner: guigoebelproductions
